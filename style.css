@@ -146,7 +146,7 @@ button{
     cursor: pointer;
 }
 .submit-btn{
-    position: relative;
+    position: absolute;
 }
 .submit-btn::after{
     content: '\27a4';

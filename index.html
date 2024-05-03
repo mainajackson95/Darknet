@@ -9,16 +9,27 @@
     <link rel="stylesheet" href="style.css" />
     <style>
     @media (max-width: 768px) {
+      .hero {
+        height: auto; /* Allow height to adjust based on content */
+      }
+
+      .back-video {
+        height: auto; /* Auto height to maintain aspect ratio */
+        width: 100%; /* Ensure the video fills the width */
+        object-fit: contain; /* Keep the video aspect ratio */
+      }
+
       .content {
-        padding: 10px; 
+        padding: 20px; /* Add padding for smaller screens */
+        text-align: center;
       }
 
       .content h1 {
-        font-size: 1.5rem; 
+        font-size: 1.5rem; /* Adjusted font size for smaller screens */
       }
 
       .content a {
-        font-size: 1rem; 
+        font-size: 1rem; /* Adjusted link font size */
       }
     }
 
